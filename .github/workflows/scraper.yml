@@ -1,0 +1,40 @@
+name: Raspagem Diaria Copa 2026
+
+on:
+  schedule:
+    # O cron usa o fuso horário UTC!
+    # 21:00 UTC = 18:00 Brasília | 02:00 UTC = 23:00 Brasília
+    - cron: '0 21 * * *'
+    - cron: '0 2 * * *'
+  workflow_dispatch: # <-- Isso cria o botão para testarmos manualmente!
+
+permissions:
+  contents: write # Permite que o bot faça o commit do JSON de volta no repositório
+
+jobs:
+  raspar_dados:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baixar o código
+        uses: actions/checkout@v4
+
+      - name: Configurar o Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependências
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python -m playwright install chromium --with-deps
+
+      - name: Rodar o script
+        run: python scraper_copa.py
+
+      - name: Salvar os dados (Commit)
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🤖 Atualização automática dos placares"
+          file_pattern: 'resultados_copa.json'
