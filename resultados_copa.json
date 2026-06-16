@@ -1,0 +1,166 @@
+{
+    "ultima_atualizacao": "2026-06-16 16:07:47",
+    "total_jogos_finalizados": 16,
+    "resultados": [
+        {
+            "sigla_mandante": "MEX",
+            "mandante": "México",
+            "gols_mandante": 2,
+            "gols_visitante": 0,
+            "sigla_visitante": "RSA",
+            "visitante": "África do Sul",
+            "status": "Finalizado",
+            "atualizado_em": "2026-06-16 16:07:47"
+        },
+        {
+            "sigla_mandante": "KOR",
+            "mandante": "República da Coreia",
+            "gols_mandante": 2,
+            "gols_visitante": 1,
+            "sigla_visitante": "CZE",
+            "visitante": "Tchéquia",
+            "status": "Finalizado",
+            "atualizado_em": "2026-06-16 16:07:47"
+        },
+        {
+            "sigla_mandante": "CAN",
+            "mandante": "Canadá",
+            "gols_mandante": 1,
+            "gols_visitante": 1,
+            "sigla_visitante": "BIH",
+            "visitante": "Bósnia e Herzegovina",
+            "status": "Finalizado",
+            "atualizado_em": "2026-06-16 16:07:47"
+        },
+        {
+            "sigla_mandante": "USA",
+            "mandante": "EUA",
+            "gols_mandante": 4,
+            "gols_visitante": 1,
+            "sigla_visitante": "PAR",
+            "visitante": "Paraguai",
+            "status": "Finalizado",
+            "atualizado_em": "2026-06-16 16:07:47"
+        },
+        {
+            "sigla_mandante": "QAT",
+            "mandante": "Catar",
+            "gols_mandante": 1,
+            "gols_visitante": 1,
+            "sigla_visitante": "SUI",
+            "visitante": "Suíça",
+            "status": "Finalizado",
+            "atualizado_em": "2026-06-16 16:07:47"
+        },
+        {
+            "sigla_mandante": "BRA",
+            "mandante": "Brasil",
+            "gols_mandante": 1,
+            "gols_visitante": 1,
+            "sigla_visitante": "MAR",
+            "visitante": "Marrocos",
+            "status": "Finalizado",
+            "atualizado_em": "2026-06-16 16:07:47"
+        },
+        {
+            "sigla_mandante": "HAI",
+            "mandante": "Haiti",
+            "gols_mandante": 0,
+            "gols_visitante": 1,
+            "sigla_visitante": "SCO",
+            "visitante": "Escócia",
+            "status": "Finalizado",
+            "atualizado_em": "2026-06-16 16:07:47"
+        },
+        {
+            "sigla_mandante": "AUS",
+            "mandante": "Austrália",
+            "gols_mandante": 2,
+            "gols_visitante": 0,
+            "sigla_visitante": "TUR",
+            "visitante": "Turquia",
+            "status": "Finalizado",
+            "atualizado_em": "2026-06-16 16:07:47"
+        },
+        {
+            "sigla_mandante": "GER",
+            "mandante": "Alemanha",
+            "gols_mandante": 7,
+            "gols_visitante": 1,
+            "sigla_visitante": "CUW",
+            "visitante": "Curaçau",
+            "status": "Finalizado",
+            "atualizado_em": "2026-06-16 16:07:47"
+        },
+        {
+            "sigla_mandante": "NED",
+            "mandante": "Holanda",
+            "gols_mandante": 2,
+            "gols_visitante": 2,
+            "sigla_visitante": "JPN",
+            "visitante": "Japão",
+            "status": "Finalizado",
+            "atualizado_em": "2026-06-16 16:07:47"
+        },
+        {
+            "sigla_mandante": "CIV",
+            "mandante": "Costa do Marfim",
+            "gols_mandante": 1,
+            "gols_visitante": 0,
+            "sigla_visitante": "ECU",
+            "visitante": "Equador",
+            "status": "Finalizado",
+            "atualizado_em": "2026-06-16 16:07:47"
+        },
+        {
+            "sigla_mandante": "SWE",
+            "mandante": "Suécia",
+            "gols_mandante": 5,
+            "gols_visitante": 1,
+            "sigla_visitante": "TUN",
+            "visitante": "Tunísia",
+            "status": "Finalizado",
+            "atualizado_em": "2026-06-16 16:07:47"
+        },
+        {
+            "sigla_mandante": "ESP",
+            "mandante": "Espanha",
+            "gols_mandante": 0,
+            "gols_visitante": 0,
+            "sigla_visitante": "CPV",
+            "visitante": "Cabo Verde",
+            "status": "Finalizado",
+            "atualizado_em": "2026-06-16 16:07:47"
+        },
+        {
+            "sigla_mandante": "BEL",
+            "mandante": "Bélgica",
+            "gols_mandante": 1,
+            "gols_visitante": 1,
+            "sigla_visitante": "EGY",
+            "visitante": "Egito",
+            "status": "Finalizado",
+            "atualizado_em": "2026-06-16 16:07:47"
+        },
+        {
+            "sigla_mandante": "KSA",
+            "mandante": "Arábia Saudita",
+            "gols_mandante": 1,
+            "gols_visitante": 1,
+            "sigla_visitante": "URU",
+            "visitante": "Uruguai",
+            "status": "Finalizado",
+            "atualizado_em": "2026-06-16 16:07:47"
+        },
+        {
+            "sigla_mandante": "IRN",
+            "mandante": "RI do Irã",
+            "gols_mandante": 2,
+            "gols_visitante": 2,
+            "sigla_visitante": "NZL",
+            "visitante": "Nova Zelândia",
+            "status": "Finalizado",
+            "atualizado_em": "2026-06-16 16:07:47"
+        }
+    ]
+}
