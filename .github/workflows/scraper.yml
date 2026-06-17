@@ -2,12 +2,11 @@ name: Raspagem Diaria Copa 2026
 
 on:
   schedule:
-    # O comando */30 significa "rode a cada 30 minutos", não importa a hora
     - cron: '*/30 * * * *'
-  workflow_dispatch: # Mantém o botão de execução manual
+  workflow_dispatch:
 
 permissions:
-  contents: write # Permite que o bot faça o commit do JSON de volta no repositório
+  contents: write
 
 jobs:
   raspar_dados:
